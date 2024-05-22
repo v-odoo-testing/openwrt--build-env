@@ -76,6 +76,9 @@ apt-get -y install musl-dev
 apt-get -y install net-tools silversearcher-ag strace
 apt-get -y install pigz p7zip-full
 
+# build error perl
+apt-get -y install protobuf-c-compiler
+
 # for sd_fuse
 apt-get -y install parted udev
 if [ ${UBUNTU_CODENAME} = "bionic" ]; then
